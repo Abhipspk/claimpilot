@@ -13,7 +13,7 @@ if __name__ == "__main__":
     c1 = Claim("CLM-0001", "PAT-17", "PR001", "99123", 1250.00)
     c2 = Claim("CLM-0005", "PAT-25", "PR005", "10957", 1800.00)
     print(c1.summary())
-    c1.amount=1600
+    c1.amount = 1600
     print(c1.summary())
-    print(Claim)
+    print(c1)
     print(c1 == Claim("CLM-0001", "PAT-17", "PR001", "99123", 1600))
